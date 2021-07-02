@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import UserForm from './components/UserForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <center><img src="./amazon1.jpg" width="120" height="40" /></center>
+    <div className="card">
+   
+      <h1 className="a-spacing-small moa_desktop_signup">Create Account</h1>
+     
+      <UserForm />
+      
+    </div>
     </div>
   );
 }

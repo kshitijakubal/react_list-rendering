@@ -109,6 +109,15 @@ Message and Data rates may apply.</p>
             </div>
             
         </form>
+        
+        <hr style ={{marginTop:"2rem",
+                    backgroundImage: "linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))"}} />
+       
+        <div>
+            <p style={{fontWeight:"normal",fontFamily:"serif",
+                        fontSize:"15px"}}>Already have an account? Sign in<br/>
+            Buying for work? Create a free business account</p>
+        </div>
         <div>
                 {
                     records.map((element) => {

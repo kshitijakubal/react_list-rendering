@@ -6,7 +6,6 @@ import LoginComponent from "./LoginComponent";
 function UserForm(){
 
     const inputStyle = {
-         
             width: '100%',
             height: '10px',
             padding: '12px 20px',
@@ -15,7 +14,6 @@ function UserForm(){
             border: '1px solid #ccc',
             borderRadius: '4px',
             boxSizing: 'border-box',
-        
     }
 
     const [userRegistration, setUserRegistration] = useState({

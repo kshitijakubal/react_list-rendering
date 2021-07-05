@@ -1,17 +1,12 @@
 import React from 'react';
 import UserForm from './components/UserForm';
+import ListComponent from './components/ListComponent';
 
 function App() {
   return (
     <div>
-      <center><img src="./amazon1.jpg" width="120" height="40" /></center>
-    <div className="card">
-   
-      <h1 className="a-spacing-small moa_desktop_signup">Create Account</h1>
-     
-      <UserForm />
-      
-    </div>
+    <h1>Todo App</h1>
+        <ListComponent />
     </div>
   );
 }

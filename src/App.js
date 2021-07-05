@@ -1,12 +1,12 @@
 import React from 'react';
 import UserForm from './components/UserForm';
-import ListComponent from './components/ListComponent';
+import TodoComponent from './components/TodoComponent';
 
 function App() {
   return (
     <div>
     <h1>Todo App</h1>
-        <ListComponent />
+        <TodoComponent />
     </div>
   );
 }

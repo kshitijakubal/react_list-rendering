@@ -10,7 +10,7 @@ function TodoItemComponent(props){
             checked={props.task.completed}
             onChange = {() => props.handleChange(props.task.id)}
             />
-            <p style={props.task.completed ? Style : null}>{props.task.taskname}</p>
+            <label style={props.task.completed ? Style : null}>{props.task.taskname}</label>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import TodoItemComponent from "./TodoItemComponent";
+import TodoItemComponent from "../TodoComponents/TodoItemComponent"
 
 function ListComponent(){
 
